@@ -1,0 +1,236 @@
+/*      Generales         */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 0px;
+    position: relative;
+}
+
+/*      Variables        */
+:root {
+    --rosa-medio: #FEB7BB;
+    --vino-tinto: #4C004A;
+    --rosa-claro:  #F8D9DA;
+    --rosa-fuerte: #DD9297;
+    --gris-fonts: #353535;
+    --rosa-calido: #FA8D94;
+}  
+
+/*      Main        */
+#main{
+    margin-top: 6vh;
+    background-color: var(--rosa-claro);
+}
+
+
+/*      Seccion presentacion del proyecto      */
+
+#section-about-us{
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 3vh;
+}
+
+/*      Titulo de la seccion acerca de nosotros     */
+#div-title-folleto{
+    padding-top: 3vh;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 80%;
+    height: 25%;
+    text-align: center;
+}
+
+#title-folleto{
+    font-size: 4vw;
+}
+
+#decoration-folleto{
+    width: 70%;
+    height: 5px;
+    background-color: var(--vino-tinto);
+    margin: auto;
+}
+
+/*      Informacion acerca de nosotros      */
+#div-info-about-us{
+    margin-top: 2vh;
+}
+
+#div-img-promo{
+    width: 45vw;
+    height: 30vw;
+    overflow: hidden;
+    position: absolute;
+    right: 41%;
+    z-index: 2;
+}
+
+#img-promo{
+    width: 100%;
+    height: 100%;
+}
+
+#info-proyecto{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 28vw;
+    background-color: var(--rosa-medio);
+    right:16%;
+    top: 11.5%;
+    padding: 6px;
+    margin-top: 1.5vh;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#title-info-proyecto{
+    font-size: 4.8vh;
+    margin: 7px;
+}
+
+#decoration-info-proyecto{
+    width: 85%;
+    height: 3px;
+    background-color: var(--vino-tinto);
+    margin: 7px;
+    margin-bottom: 12px;
+    margin-right: auto;
+}
+
+#p-info-proyecto{
+    font-size: 1.6vw;
+    margin: 7px;
+    line-height: 130%;
+}
+
+/*      Seccion Acerca del proyecto     */
+#section-about-proyect{
+    background-color: var(--rosa-medio);
+    margin-top: 10vh;
+    height: 80vh;
+    padding-top: 2vh;
+}
+
+/*      Titulo Acerca del proyecto      */
+#title-section-about{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5vw;
+    margin: auto;
+}
+
+/*      Contenedor de elementos acerca del proyecto        */
+#ul-about-proyect{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+/*      Elementos acerca del proyecto       */
+.li-about-proyecto{
+    width: 31%;
+    height: 62vh;
+    background-color: var(--rosa-calido);
+    margin: 2vw;
+    text-decoration: none;
+    padding: 2vh;
+    padding-top: 1vh;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.title-about-proyecto-li{
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.decoration-about-proyecto{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 3px;
+    background-color: var(--vino-tinto);
+    margin-top: 0.7vh;
+    margin-bottom: 2vh;
+}
+
+.info-about-proyecto{
+    font-size: 1.8vw;
+}
+
+/*      Seccion de objetivos        */
+#section-objective{
+    margin-top: 4vh;
+    width: 100%;
+    height: 100vh;
+}
+
+/*      Titulo de la seccion de objetivo        */
+#div-title-objective{
+    text-align: center;
+}
+
+#title-objective{
+    font-size: 3.4vw;
+}
+
+#decoration-objective{
+    width: 70%;
+    margin: auto;
+    height: 4px;
+    background-color: var(--vino-tinto);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*      Lista de objetivos      */
+#ul-objectives{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2vw;
+    list-style-type: none;
+    justify-items: center;
+    align-items: center;
+    padding: 13vw;
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+}
+
+.li-objective{
+    background-color: var(--rosa-calido);
+    text-align: center;
+    padding: 12px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    transition: all 1s;
+}
+
+.li-objective:hover{
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+}
+
+.title-objective-li{
+    color: #fff;
+    font-size: 5vh;
+}
+
+.decoration-objective-li{
+    width: 90%;
+    height: 3px;
+    background-color: var(--vino-tinto);
+    color: var(--vino-tinto);
+    margin: auto;
+    margin-top: 0.5vw;
+    margin-bottom: 1.6vw;
+}
+
+.p-objective-li{
+    text-align: start;
+    color: #fff;
+    font-size: 1.8vw;
+}
+
+
